@@ -17,11 +17,19 @@ const notoSans = Noto_Sans_KR({
 export const metadata: Metadata = {
   title: "PaperWorks | 페이퍼웍스",
   description: "복잡한 지식을 누구나 이해할 수 있게. 프리미엄 출판사 페이퍼웍스입니다.",
+  metadataBase: new URL("https://paperworks.live"),
   openGraph: {
     title: "PaperWorks | 페이퍼웍스",
     description: "복잡한 지식을 누구나 이해할 수 있게 전달하는 책을 만듭니다.",
+    url: "https://paperworks.live",
+    siteName: "PaperWorks",
     locale: "ko_KR",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PaperWorks | 페이퍼웍스",
+    description: "복잡한 지식을 누구나 이해할 수 있게",
   },
 };
 

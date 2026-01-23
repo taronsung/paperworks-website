@@ -233,13 +233,13 @@ export default function Home() {
               출판 문의, 제휴, 기타 문의사항이 있으시면 아래 이메일로 연락해 주세요.
             </p>
             <a
-              href="mailto:contact@paperworks.com"
+              href="mailto:contact@paperworks.live"
               className="inline-flex items-center gap-2 text-[#c9a227] hover:text-[#d4b23a] text-lg font-medium transition-colors"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              contact@paperworks.com
+              contact@paperworks.live
             </a>
           </div>
         </div>
