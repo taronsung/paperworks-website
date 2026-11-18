@@ -22,9 +22,6 @@ export default function Home() {
             <a href="#about" className="text-[#1a1a1a]/70 hover:text-[#1a1a1a] text-sm font-medium transition-colors">
               소개
             </a>
-            <a href="#author" className="text-[#1a1a1a]/70 hover:text-[#1a1a1a] text-sm font-medium transition-colors">
-              저자
-            </a>
             <a href="#contact" className="text-[#1a1a1a]/70 hover:text-[#1a1a1a] text-sm font-medium transition-colors">
               연락처
             </a>
@@ -96,9 +93,6 @@ export default function Home() {
               </h2>
               <p className="text-lg text-[#1a1a1a]/60 mb-4">
                 디지털 금의 시대, 알아야 할 모든 것
-              </p>
-              <p className="text-sm text-[#1a1a1a]/50 mb-6">
-                성석린 저
               </p>
 
               <div className="prose prose-lg text-[#1a1a1a]/70 mb-8">
@@ -179,44 +173,6 @@ export default function Home() {
               <div className="text-center">
                 <div className="text-4xl font-semibold text-[#c9a227]">AI</div>
                 <div className="text-sm text-[#1a1a1a]/50 mt-1">Powered</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="author" className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-[family-name:var(--font-noto-serif)] text-3xl md:text-4xl font-semibold text-[#1a1a1a] text-center mb-12">
-            저자 소개
-          </h2>
-          <div className="max-w-2xl mx-auto">
-            <div className="bg-[#f8f6f3] p-8 md:p-12">
-              <h3 className="font-[family-name:var(--font-noto-serif)] text-2xl font-semibold text-[#1a1a1a] mb-6">
-                성석린
-              </h3>
-              <div className="space-y-4 text-[#1a1a1a]/70 leading-relaxed">
-                <p>
-                  서울대학교에서 경제학과 컴퓨터공학을 복수전공했고,
-                  현재 서울대 법학전문대학원에서 가상자산 규제를 연구하고 있습니다.
-                </p>
-                <p>
-                  누적 1,000만 사용자의 메타버스 플랫폼 ZEP에서 Web3 팀을 이끌었고,
-                  아시아 최대 크립토 VC Hashed에서 정책 연구원으로 활동 중입니다.
-                </p>
-                <p>
-                  기술, 경제, 법을 넘나드는 융합적 시각으로 글을 씁니다.
-                </p>
-              </div>
-              <div className="flex flex-wrap gap-2 mt-8">
-                {["서울대 경제학", "서울대 컴퓨터공학", "서울대 로스쿨", "ZEP Web3 팀장", "Hashed 연구원"].map((credential) => (
-                  <span
-                    key={credential}
-                    className="px-3 py-1.5 bg-white text-[#1a1a1a]/70 text-sm"
-                  >
-                    {credential}
-                  </span>
-                ))}
               </div>
             </div>
           </div>
